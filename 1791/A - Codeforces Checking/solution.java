@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t -- > 0){
+		     char st = sc.next().charAt(0);
+		    if(st == 'c' || st == 'o' || st == 'd' || st == 'e' || st == 'f' || st == 'o' || st == 'r' || st == 'c' || st == 'e' || st == 's'){
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO");
+		    }
+		}
+	}
+}
