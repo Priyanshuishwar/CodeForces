@@ -1,0 +1,1 @@
+import java.util.*;public class Main{	public static void main(String[] args) {		Scanner sc = new Scanner(System.in);		int n = sc.nextInt();		int cycle[] = {8,4,2,6};				if(n == 0){		    System.out.println("1");		}		else{		    int ans = cycle[(int)(n - 1) % 4];		    System.out.print(ans);		}	}}
