@@ -5,9 +5,9 @@ public class Main
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int m = sc.nextInt();
-		int box_Size = n * m;
-		int piling = 2;
-		int res = box_Size / piling;
+		int pilling = 2;
+		int size = n * m;
+		int res = size / pilling;
 		System.out.print(res);
 	}
 }
