@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		while(t-- > 0){
+		    int n = sc.nextInt();
+		    int animals = 0;
+		    while(n > 0){
+		        animals += n / 4;
+		        n = n % 4;
+		        
+		        animals += n / 2;
+		        n = n % 2;
+		    }
+		    System.out.println(animals);
+		}
+		
+	}
+}
